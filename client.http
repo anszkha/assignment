@@ -1,0 +1,33 @@
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "username": "Fifee",
+    "password": "abcd",
+    "name": "Fifee Zaheed",
+    "email": "fifee2000@gmail.com"
+}
+
+
+###
+
+GET http://localhost:5000/hello
+
+
+###
+GET http://localhost:5000/bye
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkZpZmVlIiwicGFzc3dvcmQiOiJhYmNkIiwibmFtZSI6IkZpZmVlIFphaGVlZCIsImVtYWlsIjoiZmlmZWUyMDAwQGdtYWlsLmNvbSIsImlhdCI6MTY4MTM3MzI1N30.XSkPSa8abUKq3cj4n7YNYm_awVy5wnm1KNOCMyxBqy0
+###
+
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "username": "Fifee",
+    "password": "password",
+    "name": "fifee",
+    "email": "fifee2000@gmail.com"
+
+}
+
+###
