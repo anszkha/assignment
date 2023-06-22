@@ -24,7 +24,7 @@ const createSecurity = async (security) => {
 
 // Usage example
 const security = {
-  security_name: 'John Doe',
+  security_name: 'Amareen',
   security_id: 'S001',
   workshift: 'Day Shift',
 };
